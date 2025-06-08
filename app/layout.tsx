@@ -18,7 +18,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Toukolan Terapia",
-  description: "Tukea ja apua ilman lähetteitä tai diagnooseja"
+  description: "Tukea ja apua ilman lähetteitä tai diagnooseja" 
 }
 
 export default function RootLayout({
