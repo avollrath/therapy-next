@@ -109,16 +109,7 @@ button:hover {
   transform: translateY(-1px);
 }
 
-/* Card hover effects - ONLY BLUE TONES */
-.service-card:hover,
-.faq-item:hover {
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.15);
-}
 
-.help-item:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
 
 /* Enhanced text styling */
 .text-content {

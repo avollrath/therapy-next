@@ -97,9 +97,9 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="service-card bg-slate-50 border-blue-200">
+            <Card className="service-card bg-white border-blue-200">
               <CardContent className="p-6 space-y-4">
-                <div className="h-12 w-12 rounded-full bg-slate-600 flex items-center justify-center">
+                <div className="h-12 w-12 rounded-full bg-blue-400 flex items-center justify-center">
                   <Heart className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900">{t("therapists.mira.name")}</h3>
@@ -109,9 +109,9 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="service-card bg-slate-50 border-slate-200">
+            <Card className="service-card bg-white border-slate-200">
               <CardContent className="p-6 space-y-4">
-                <div className="h-12 w-12 rounded-full bg-slate-600 flex items-center justify-center">
+                <div className="h-12 w-12 rounded-full bg-blue-400 flex items-center justify-center">
                   <Users className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900">{t("therapists.laura.name")}</h3>
@@ -123,7 +123,7 @@ export default function Home() {
 
             <Card className="service-card bg-white border-slate-200">
               <CardContent className="p-6 space-y-4">
-                <div className="h-12 w-12 rounded-full bg-slate-600 flex items-center justify-center">
+                <div className="h-12 w-12 rounded-full bg-blue-400 flex items-center justify-center">
                   <Brain className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900">{t("therapists.maria.name")}</h3>
@@ -448,20 +448,13 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
               <Button
                 size="lg"
-                className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full"
+                className="bg-blue-400 hover:bg-blue-600 text-white px-8 py-4 rounded-full"
                 onClick={() => handleBookingClick()}
               >
                 <Calendar className="mr-2 h-4 w-4" />
                 {t("hero.cta")}
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-blue-300 text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-full bg-transparent"
-              >
-                <UserCheck className="mr-2 h-4 w-4" />
-                {language === "fi" ? "Ota yhteyttä" : "Contact Us"}
-              </Button>
+           
             </div>
           </div>
         </div>

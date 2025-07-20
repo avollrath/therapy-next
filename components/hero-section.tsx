@@ -1,17 +1,25 @@
-"use client"
+"use client";
 
-import { useLanguage } from "./language-provider"
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { useLanguage } from "./language-provider";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Link from "next/link";
+import { Calendar } from "lucide-react"
 
 export default function HeroSection() {
-  const { t } = useLanguage()
+  const { t } = useLanguage();
 
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center hero-section">
+    <section id="home" className="relative w-full min-h-screen flex items-center justify-center hero-section">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <Image src="/hero-therapy-new.jpg" alt="Toukolan Terapia" fill className="object-cover" priority />
+        <Image
+          src="/hero-therapy-new.jpg"
+          alt="Toukolan Terapia"
+          fill
+          className="object-cover"
+          priority
+        />
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-slate-900/20 backdrop-blur-[1px]" />
       </div>
@@ -25,22 +33,17 @@ export default function HeroSection() {
           {t("hero.subtitle").replace(/<\/?strong>/g, "")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 pt-8">
-          <Button
-            size="lg"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
-            onClick={() => {}}
-          >
-            {t("hero.cta")}
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="border-2 border-white bg-white/90 hover:bg-white text-slate-900 px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
-          >
-            {t("about")}
-          </Button>
+          <Link href="#therapists">
+            <Button
+              size="lg"
+              className="bg-blue-400 hover:bg-blue-500 text-white px-16 py-10 text-2xl font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <Calendar className="mr-2 !h-8 !w-8" />
+              {t("hero.cta")}
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
-  )
+  );
 }

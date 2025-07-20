@@ -20,7 +20,7 @@ export default function Header() {
   }
 
   const navItems = [
-    { href: "#", label: t("home") },
+    { href: "#home", label: t("home") },
     { href: "#about", label: t("about") },
     { href: "#services", label: t("services") },
     { href: "#therapists", label: t("therapists") },
@@ -31,7 +31,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="#home" className="flex items-center space-x-2">
           <div className="relative h-8 w-auto">
             <Image
               src="/logo.svg"
