@@ -89,6 +89,9 @@ const translations = {
       "**Kognitiivisen lyhytterapian** menetelmä perustuu kognitiivisen psykoterapian viitekehykseen, jonka perusajatuksena on se, että ihmisen **ajattelu**, **tunteet** ja **käyttäytyminen** ovat yhteydessä toisiinsa. Terapiassa tutkitaan, miten **negatiiviset** tai **vääristyneet ajatukset** vaikuttavat tunteisiin ja käyttäytymiseen. Terapeutti auttaa sinua **tunnistamaan** ja **haastamaan** näitä haitallisia ajatusmalleja, mikä voi johtaa **parempaan mielialaan** ja **toimintakykyyn**. Kognitiivinen terapia voi olla hieman **pidempikestoista**, sillä se syventää ymmärrystä omista **ajatusprosesseistaan**.",
     "difference.solution":
       "**Ratkaisukeskeisessä lyhytterapiassa** keskiössä ovat **vahvuutesi** ja **voimavarasi**. Terapeutti auttaa sinua löytämään **käytännön ratkaisuja** ongelmiisi ja asettamaan **realistisia tavoitteita**. Tavoitteena on edistää **muutosta** keskittymällä siihen, **mikä toimii** hyödyntämällä sinun **voimavarojasi**. Tämä lähestymistapa on usein **tavoitteellinen**, **lyhytkestoinen** ja **käytännönläheinen**, mikä tekee siitä houkuttelevan vaihtoehdon niille, jotka etsivät **nopeita tuloksia**. Työskentely on tyypillisesti **nykyhetkeen keskittyvää** ja **tulevaisuuteen suuntautuvaa**.",
+    "difference.tab.solution": "Ratkaisukeskeinen",
+    "difference.tab.cognitive": "Kognitiivinen",
+
 
     // FAQ
     "faq.title": "Usein kysytyt kysymykset",
@@ -218,6 +221,8 @@ const translations = {
       "The method of **cognitive brief therapy** is based on the framework of cognitive psychotherapy. The basic idea is that a person's **thinking**, **feelings** and **behavior** are interconnected. In therapy we examine how **negative** or **distorted thoughts** affect the Your feelings and behavior. We help You **identify** and **challenge** these harmful thought patterns, which can lead to **improved mood** and **functioning**. Cognitive therapy can be slightly **longer in duration**. In cognitive brief therapy, the professional and the client work in an **equal partnership** towards a **goal-defined objective**. The goals of cognitive brief therapy may include, for example, building a **better quality of life**, making **lifestyle changes** that promote well-being, or finding a **more functional relationship** with oneself and others (Source: Integrum).",
     "difference.solution":
       "**Solution-focused brief therapy** focuses on Your **strengths** and **resources**. The therapist helps You find **practical solutions** to their problems and set **realistic goals**. **Change** is promoted by focusing on **what works** and by utilizing Your own **resources**. This approach is often **goal-oriented**, **short-term** and **practical**, which makes it an appealing option for those looking for **quick results**. The work is typically focused on the **present** and **future**.",
+    "difference.tab.solution": "Solution-focused",
+    "difference.tab.cognitive": "Cognitive",
 
     // FAQ
     "faq.title": "Frequently asked questions",

@@ -244,13 +244,13 @@ export default function Home() {
                   value="cognitive"
                   className="data-[state=active]:bg-blue-100 data-[state=active]:text-blue-900 data-[state=active]:font-semibold text-slate-700 font-medium transition-all duration-200"
                 >
-                  Cognitive
+                  {t("difference.tab.cognitive")}
                 </TabsTrigger>
                 <TabsTrigger
                   value="solution"
                   className="data-[state=active]:bg-blue-100 data-[state=active]:text-blue-900 data-[state=active]:font-semibold text-slate-700 font-medium transition-all duration-200"
                 >
-                  Solution-focused
+                  {t("difference.tab.solution")}
                 </TabsTrigger>
               </TabsList>
               <TabsContent value="cognitive" className="p-6 bg-white border border-blue-200 rounded-lg mt-4 shadow-sm">
