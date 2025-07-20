@@ -119,7 +119,7 @@ export default function BookingModal({ open, onOpenChange, selectedTherapist }: 
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[500px] bg-white border-slate-200 shadow-xl">
+      <DialogContent className="sm:max-w-[500px] bg-white p-4 sm:p-6 border-slate-200 shadow-xl max-h-[90vh] overflow-y-auto">
         <DialogHeader className="text-left border-b border-slate-100 pb-4">
           <DialogTitle className="text-2xl font-bold text-slate-900">
             {language === "fi" ? "Varaa aika" : "Book an appointment"}
